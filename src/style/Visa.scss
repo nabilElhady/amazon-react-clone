@@ -1,0 +1,35 @@
+.inlineimage {
+  max-width: 470px;
+  margin-right: 8px;
+  margin-left: 10px;
+}
+.images {
+  display: inline-block;
+  max-width: 98%;
+  height: auto;
+  width: 22%;
+  margin: 1%;
+  left: 20px;
+  text-align: center;
+}
+.form-control {
+  display: inline-block;
+}
+.center {
+  display: flex;
+  justify-content: center !important;
+  width: 100%;
+}
+.total {
+  width: 100% !important;
+  align-self: start !important;
+}
+.panel {
+  width: 100% !important;
+}
+.col-xs-12 {
+  width: 100%;
+}
+.hide {
+  display: none;
+}

@@ -1,0 +1,68 @@
+.deleteA {
+  background-color: white;
+  border: none;
+  color: #aff1fb;
+  align-self: flex-start;
+}
+.shop__head {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.price_tage {
+  align-self: flex-end;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.checkOut {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+
+  &__left {
+    width: 70%;
+  }
+  &__right {
+    width: 25%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    border-radius: 15px;
+
+    & > button {
+      margin-top: 2rem;
+      width: 70%;
+      height: 2rem;
+      border-radius: 10px;
+      border: none;
+      background-color: #ffd814;
+    }
+  }
+}
+
+.cartmain {
+  display: flex;
+}
+.secimg {
+  width: 10rem;
+  margin: 1rem 2rem;
+}
+.titpr {
+  display: flex;
+  flex-direction: column;
+}
+.deleteitem {
+  cursor: pointer;
+  width: 6rem;
+  background-color: #ffd814;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 3px;
+  &:hover {
+    text-decoration: underline;
+  }
+}

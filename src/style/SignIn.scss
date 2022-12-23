@@ -1,0 +1,124 @@
+.biggest {
+  width: 100%;
+}
+.bogo {
+  background-color: white;
+}
+.centerd {
+  display: flex;
+
+  justify-content: center;
+}
+.bigger {
+  width: 23rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.show {
+  display: inline-block;
+  z-index: 2;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+label {
+  align-self: flex-start;
+  margin-bottom: 0.4rem;
+}
+input {
+  box-sizing: border-box;
+  height: 2rem;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid gray;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  &:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 0px 3px rgba(0, 144, 237, 0.4);
+    border: 1px solid;
+  }
+}
+.signin {
+  width: 100%;
+  padding: 0;
+  height: 2rem;
+  background-color: #f0c14b;
+  border: 0.1px solid gray !important;
+  margin-bottom: 1.5rem;
+  margin-bottom: 2rem !important;
+}
+
+h1 {
+  margin: 0 0 1rem 0;
+}
+.signinlogo {
+  display: flex;
+  justify-content: center;
+  & > img {
+    width: 10rem;
+    margin: 1.5rem;
+  }
+}
+.create {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 20rem;
+  margin: 2rem;
+  height: 2.2rem;
+  background: #e7e9ec86;
+  border-radius: 3px;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  &:hover {
+    background: #e7e9ec;
+  }
+  &:active {
+    box-shadow: 0 0 0 0.5px black;
+  }
+}
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(
+    rgba(#f0c14bd7, 0.84),
+    rgba(#f0c14bc4, 1) 50%
+  );
+  border-radius: 4px;
+
+  color: black;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-29:hover {
+  background-image: none;
+  background-color: #f0c14b;
+  box-shadow: 0 0 0 0.5px gray;
+}
+
+.button-29:active {
+  box-shadow: 0 0 0 0.5px green;
+}

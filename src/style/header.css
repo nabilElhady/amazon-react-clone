@@ -1,0 +1,49 @@
+.awssld__bullets {
+  background-color: red !important;
+  color: red !important;
+  width: 0 !important;
+}
+.backphoto {
+  width: 2000px;
+  cursor: pointer;
+}
+.awssld__content {
+  background-color: white;
+  display: block;
+}
+.swipe {
+}
+.awssld__box {
+  height: 77%;
+}
+.awssld__next {
+  height: 70% !important;
+  top: -10% !important;
+}
+.awssld__prev {
+  height: 70% !important;
+  top: -10% !important;
+}
+.header__nav {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 4px 0;
+}
+.header__nav:hover {
+  border-color: white;
+}
+img {
+  position: relative;
+}
+@media (max-width: 1800px) {
+  .backphoto {
+    position: relative;
+    left: -200px;
+  }
+}
+@media (max-width: 1500px) {
+  .backphoto {
+    position: relative;
+    left: -500px;
+  }
+}

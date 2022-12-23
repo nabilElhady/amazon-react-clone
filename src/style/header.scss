@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+}
+.logo {
+  height: 2rem;
+  display: flex;
+  margin-right: 1rem;
+}
+.bighead {
+  position: relative;
+  z-index: 5;
+}
+.header {
+  display: flex;
+  align-items: center;
+
+  background-color: black;
+  padding: 0.5rem;
+  &__buttons {
+    display: flex;
+    align-items: center;
+  }
+  &_optionLineOne {
+    color: rgba(white, 0.4);
+  }
+  &_optionLineTwo {
+    color: rgba(white, 1);
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+  &__basket {
+    display: flex;
+    align-items: center;
+  }
+  &__baskeCount {
+    margin-left: 1rem;
+  }
+}
+.sechead {
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  align-items: center;
+  &__ALL {
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 1px 5px;
+    border-radius: 3px;
+    &:hover {
+      border: 1px solid white;
+    }
+  }
+  &__button {
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 3px 5px;
+    border-radius: 3px;
+
+    &:hover {
+      border: 1px solid white;
+    }
+  }
+
+  &__ALL {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+
+  &__buttons > * {
+    margin: 0.5rem;
+  }
+}
