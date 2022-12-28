@@ -23,7 +23,7 @@ export const Product = ({ title, price, rating, img, id }) => {
     console.log(totalPrice2, boxed);
   };
   return (
-    <div className="product">
+    <div className=" text-red-500">
       <p>{title}</p>
       <h3 className="product__price">{price}$</h3>
       <Rating

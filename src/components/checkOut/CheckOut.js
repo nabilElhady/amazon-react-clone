@@ -57,8 +57,8 @@ export const CheckOut = () => {
   // });
 
   return (
-    <Flipped flipId="square">
-      <div>
+    <div style={{ width: "100%" }}>
+      <div style={{ width: "100%" }}>
         <Header></Header>
         <div>
           <div style={{ textAlign: "center" }}>
@@ -106,6 +106,6 @@ export const CheckOut = () => {
           </div>
         </div>
       </div>
-    </Flipped>
+    </div>
   );
 };

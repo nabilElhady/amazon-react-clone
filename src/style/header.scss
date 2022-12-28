@@ -9,11 +9,11 @@
 .bighead {
   position: relative;
   z-index: 5;
+  width: 100%;
 }
 .header {
   display: flex;
   align-items: center;
-
   background-color: black;
   padding: 0.5rem;
   &__buttons {

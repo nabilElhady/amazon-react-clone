@@ -22,10 +22,15 @@ code {
     align-self: center;
     margin: 2rem 0;
     transition: all 0.3s;
-    background-color: #ac8f3c;
+    background-color: #ac8e3c93;
     border: none;
     padding: 0.2rem 0.7rem;
     border-radius: 5px;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
     @media screen and (max-width: 975px) {
       width: 150px;
       height: 50px;
@@ -33,6 +38,7 @@ code {
     }
     &:hover {
       transform: translateY(-3px);
+      background-color: #ac8f3c;
     }
     &:active {
       transform: translateY(0);
@@ -65,6 +71,7 @@ code {
       }
       & img {
         max-height: 10rem;
+        max-width: 60%;
         display: block;
       }
     }
